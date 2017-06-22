@@ -8,7 +8,7 @@
 
 一：下载项目骨架
 
-首先克隆一个项目骨架，方便开发工作
+首先克隆一个项目骨架，为了快速开始一个新的项目
 
 git clone git@github.com:zce/angular-boilerplate.git
 

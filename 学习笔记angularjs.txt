@@ -1,0 +1,70 @@
+
+         *********************************************
+	
+		使用angular做豆瓣电影app
+
+         *********************************************
+
+
+一：下载项目骨架
+
+首先克隆一个项目骨架，方便开发工作
+
+git clone git@github.com:zce/angular-boilerplate.git
+
+
+
+二：安装nodejs环境：http://www.cnblogs.com/pigtail/archive/2013/01/08/2850486.html
+
+  并安装： bower(npm install -g bower ) http://www.jianshu.com/p/d9e46b5a8f80
+
+
+
+三：npm start 一键自动安装所依赖的模块
+（包括npm install 和 bower install），
+并且此时因为依赖有‘http-server’，所以会开启一个服务http://localhost:9000
+【说明】：
+
+npm执行命令自定义（package.json）
+
+--------------------------------------------------------------
+"scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "./node_modules/.bin/hs -a localhost -p 9000 -o"
+  }
+
+
+
+"devDependencies": {
+    "browser-sync": "^2.11.1",   浏览器同步
+    "http-server": "^0.9.0"      开启服务器
+  }
+
+-------------------------------------------------------------
+此处定义的脚本任务，可以直接在npm中执行
+
+例如：-> npm run prestart
+
+      -> npm start     start命令，可以直接执行，不用run   自动开启一个服务器
+
+
+
+四：
+.bowerrc  是用来配置用bower安装模块的路径
+.editorconfig  统一开发风格
+.gitignore   git上传时要忽略掉的文件，比如依赖的模块
+bower.json   bower所依赖的文件管理
+package.json  npm所依赖的文件管理
+
+
+
+
+
+
+
+
+
+
+
+

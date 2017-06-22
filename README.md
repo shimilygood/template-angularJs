@@ -1,5 +1,6 @@
-# template-angularJs作为angularJs项目骨架
-# 日后可以直接下载下来使用
+# 项目骨架
+## template-angularJs作为angularJs项目骨架
+## 日后可以直接下载下来使用
 ~ 使用之前，请确保已经安装了nodejs npm包管理工具  和bower包管理工具
 
 * .bowerrc          是用来配置用bower安装模块的路径
